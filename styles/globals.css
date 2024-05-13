@@ -1,0 +1,176 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+    :root {
+      --border: 214.3 31.8% 91.4%;
+      --input: 214.3 31.8% 91.4%;
+      --ring: 222.2 84% 4.9%;
+
+      --radius: 0.5rem;
+
+      /* color generator colors  */
+
+      --bg-default: #fff;
+      --bg-base: #fdfdfc;
+      --bg-bg-subtle: #f9f9f8;
+      --bg-bg: #f3f3f2;
+      --bg-bg-hover: #eeeeec;
+      --bg-bg-active: #e9e9e6;
+      --fg-line: #e3e3e0;
+      --fg-border: #dbdbd7;
+      --fg-border-hover: #c8c7c1;
+      --fg-solid: #90908c;
+      --fg-solid-hover: #868682;
+      --fg-text: #706f6c;
+      --fg-text-contrast: #1b1b18;
+      --fg-default: #000;
+    
+    
+      --primary-base: #fefdfb;
+      --primary-bg-subtle: #fff9ed;
+      --primary-bg: #fff4d5;
+      --primary-bg-hover: #ffecbc;
+      --primary-bg-active: #ffe3a2;
+      --primary-line: #ffd386;
+      --primary-border: #f3ba63;
+      --primary-border-hover: #ee9d2b;
+      --primary-solid: #ffb224;
+      --primary-solid-hover: #ffa01c;
+      --primary-text: #ad5700;
+      --primary-text-contrast: #4e2009;
+    
+    
+      --secondary-base: #fffcfd;
+      --secondary-bg-subtle: #fff7f9;
+      --secondary-bg: #feeff3;
+      --secondary-bg-hover: #fde5ea;
+      --secondary-bg-active: #fad8e0;
+      --secondary-line: #f5c7d1;
+      --secondary-border: #eeafbc;
+      --secondary-border-hover: #e592a2;
+      --secondary-solid: #e54666;
+      --secondary-solid-hover: #da3a5c;
+      --secondary-text: #ca244d;
+      --secondary-text-contrast: #64172b; 
+      
+
+    }
+
+    .dark {
+      color-scheme:dark;
+
+      --border: 217.2 32.6% 17.5%;
+      --input: 217.2 32.6% 17.5%;
+      --ring: 212.7 26.8% 83.9%;
+
+      /* color generator colors  */
+
+      --bg-default: #000;
+      --bg-base: #161615;
+      --bg-bg-subtle: #1c1c1a;
+      --bg-bg: #232320;
+      --bg-bg-hover: #282826;
+      --bg-bg-active: #2e2e2b;
+      --fg-line: #353431;
+      --fg-border: #3e3e3a;
+      --fg-border-hover: #51504b;
+      --fg-solid: #717069;
+      --fg-solid-hover: #7f7e77;
+      --fg-text: #a1a09a;
+      --fg-text-contrast: #ededec;
+      --fg-default: #fff;
+    
+    
+      --primary-base: #1f1300;
+      --primary-bg-subtle: #271700;
+      --primary-bg: #341c00;
+      --primary-bg-hover: #3f2200;
+      --primary-bg-active: #4a2900;
+      --primary-line: #573300;
+      --primary-border: #693f05;
+      --primary-border-hover: #824e00;
+      --primary-solid: #ffb224;
+      --primary-solid-hover: #ffcb47;
+      --primary-text: #f1a10d;
+      --primary-text-contrast: #fef3dd;
+    
+    
+      --secondary-base: #1f1417;
+      --secondary-bg-subtle: #2a1519;
+      --secondary-bg: #3b181f;
+      --secondary-bg-hover: #471a23;
+      --secondary-bg-active: #531b27;
+      --secondary-line: #661d2c;
+      --secondary-border: #8a1e34;
+      --secondary-border-hover: #d01b3f;
+      --secondary-solid: #e54666;
+      --secondary-solid-hover: #f2657e;
+      --secondary-text: #ff859d;
+      --secondary-text-contrast: #fed2e1;
+    
+
+    }
+  
+
+
+  /* my styles */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  font-feature-settings:
+    'case' 1,
+    'rlig' 1,
+    'calt' 0;
+    scroll-behavior: smooth;
+  margin: 0;
+
+
+}
+
+html,
+body {
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  background-color: var(--bg-bg);
+  
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.height-screen-helper {
+  min-height: calc(100vh - 80px);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

@@ -1,0 +1,104 @@
+{
+    "navbar": {
+        "links": [
+          { "name": "About", "href": "#about"  },
+          { "name": "Featured", "href": "#featured"  },
+          { "name": "FAQS", "href": "#faq"  }
+        ],
+        "buttonText": "Try Now for free",
+        "logoText": "Echoes Of Despair"
+      },
+      "heroSection": {
+        "heading": "Explore A World Of Mythical Creatures",
+        "subheading": "Embark on a Legendary Journey Among Fantastic Beings.",
+        "buttonText": "Get Early Access"
+      },
+      "about": {
+        "heading": "About Us",
+        "mainText": "We're the architects of adrenaline-fueled fantasies and the creators of worlds where vengeance reigns supreme. With a fiery passion for storytelling, we've crafted a realm where every twist and turn fuels your thirst for triumph. Our team of relentless adventurers ensures that each quest, each encounter, and each dragon you face is a test of your mettle. We don't just invite you to play; we beckon you to conquer, to rise from the ashes of your past and claim your destiny. Join us, and let's rewrite the tale of revenge and dragons together, one epic adventure at a time.",
+        "buttonText": "Read More"
+      },
+      "featured":{
+        "heading": "Featured",
+        "cardInfo":[
+
+        {
+          "image":"/assets/images/card-one.png",
+          "title": "Stormclaw",
+          "description":"Wild and untamed, Stormclaw unleashes thunderous fury force of nature to be reckoned",
+          "buttonText":"Get Early Access"
+        },
+        {
+          "image":"/assets/images/card-two.png",
+          "title": "Frostwing",
+          "description":"Majestic and icy, Frostwing soars through the frozen skies, freezing foes with a single breath",
+          "buttonText":"Get Early Access"
+        },
+        {
+          "image":"/assets/images/card-three.png",
+          "title": "Shadowfang",
+          "description":"Sly and cunning, Shadowfang lurks in the darkness, striking fear into the hearts of all",
+          "buttonText":"Get Early Access"
+        },
+        {
+          "image":"/assets/images/card-four.png",
+          "title": "Flameheart",
+          "description":"Fierce and noble, Flameheart commands the flames with unrivaled power",
+          "buttonText":"Get Early Access"
+        }
+
+      ]
+      },
+      "faq": {
+        "heading": "FAQS",
+        "questionOne": "How do I start playing Echoes of Despair?",
+        "questionTwo": "Can I play Echoes of Despair on mobile devices?",
+        "questionThree": "How often are new updates released?",
+        "questionFour": "Can I customize my character's appearance and abilities?",
+        "questionFive": "How can I join a build or form alliances with other players?",
+
+        "answerFive": "You can join existing guilds or create your own, fostering camaraderie and teamwork.",
+        "answerFour": "Absolutely! Explore various customization options to tailor your character to your liking.",
+        "answerThree": " We strive to release regular updates to keep the game fresh and exciting for our players.",
+        "answerTwo": "Our game is available for both iOS and Android platforms.",
+        "answerOne": " Simply download the game from our website and embark on your adventure.",
+
+        "endquestion": "Still have questions?",
+        "endtext": "Reach out to our support team for assistance",
+        "buttonText": "Get In Touch"
+
+
+      },
+
+      "cta": {
+        "heading": "Join us and embark on a thrilling adventure filled with dragons, magic, and intrigue",
+        "subheading":"Seize the moment and ignite your legend. Adventure beckons. Are you ready to answer the call?",
+        "buttonText": "Get Started"
+      },
+      "footer": {
+        "links": [
+          { "name": "About", "href": "#about"  },
+          { "name": "Featured", "href": "#featured"  },
+          { "name": "FAQS", "href": "#faq"  }
+        ],
+
+        "SocialMediaLinks": [
+          {"name": "instagram", "href": "https://www.instagram.com/newweborderltd/?igshid=NTc4MTIwNjQ2YQ%3D%3D"},
+          {"name": "twitter", "href": "https://twitter.com/New_Web_Order"},
+          {"name": "youtube", "href": "https://www.newweborder.co/"}
+        ],
+
+        "4": "Privacy Policy",
+        "5": "Terms of Service",
+        "6": "Cookies Settings"
+        
+
+        
+
+
+      }
+
+
+
+
+}

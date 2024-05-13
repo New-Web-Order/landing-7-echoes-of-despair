@@ -1,0 +1,30 @@
+.root {
+  @apply inline-flex cursor-pointer items-center justify-center text-center font-bold text-[15px] rounded-2xl h-11 px-5 text-button-text shadow-lg shadow-[#392A1D];
+}
+
+
+.root[data-shape="filled"] {
+  @apply bg-primary-1100  ;
+}
+
+.root[data-shape="filled"]:hover {
+  @apply bg-[#ED7F2B] transition duration-300 ease-in-out;
+}
+
+.root[data-shape="navbar"] {
+  @apply bg-primary-1100 text-xl font-medium;
+}
+.root[data-shape="navbar"]:hover {
+  @apply bg-[#ED7F2B] transition duration-300 ease-in-out;
+}
+.root[data-shape="card"] {
+  @apply bg-primary-1100 w-full;
+}
+.root[data-shape="card"]:hover {
+  @apply bg-[#ED7F2B] transition duration-300 ease-in-out;
+
+}
+
+
+
+
